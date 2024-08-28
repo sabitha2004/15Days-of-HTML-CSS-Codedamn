@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Cabin", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 5px;
+    background-color: #f0f0f0; 
+}
+
+.main {
+    max-width: 640px;
+    border: 1px solid grey;
+    border-radius: 5px; 
+    background-color: #fff; 
+    overflow: hidden; 
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+#options img {
+    width: 24px; 
+    height: 24px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#img-post {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 5px; 
+}
+
+#toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #eee; 
+}
+
+#left, #right {
+    display: flex;
+    align-items: center;
+}
+
+#left img, #right img {
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
+}
+
+#right img {
+    margin-right: 0; 
+}
+
+#description {
+    padding: 10px;
+    line-height: 1.5; 
+}
+
+#description strong {
+    font-weight: bold;
+}
+
+#description span {
+    color: #555; 
+}
